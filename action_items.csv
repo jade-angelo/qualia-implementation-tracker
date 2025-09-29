@@ -1,0 +1,6 @@
+Date,Client,Item,Owner,Due Date,Status,Priority,Notes
+11/12/24,TitleCo,Upload logo files,Client,11/14/24,Pending,High,3 branches remaining
+11/12/24,TitleCo,Configure payee labels,Qualia,11/13/24,Complete,High,
+11/13/24,Summit,Test order templates,Client,11/15/24,Pending,Medium,
+11/14/24,Apex,Provide vendor list,Client,11/20/24,Pending,High,For vendor manager
+11/11/24,Coastal,Monitor go-live,Qualia,11/11/24,In Progress,Critical,Phase 1 support

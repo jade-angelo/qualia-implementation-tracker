@@ -1,0 +1,39 @@
+Week,Topic,Phase,Dependencies,Integrations,Duration,Pre-Call Prep,Must-Ask Questions,Common Pitfalls,Resources
+1.1,Project Kickoff/Welcome Call,1,None,None,60 min,Review welcome deck; Send calendar invites,Who are all stakeholders? What's the target go-live? Any special requirements?,Not getting all stakeholders identified early,Welcome Deck; Workbook Template
+1.2,System Demo & Permission Groups,1,1.1,None,90 min,Ensure admin access ready,How many permission groups needed? Who needs admin access?,Too many admins; Not creating training group,Permission Matrix; KB Articles
+2.1,Phased Planning,1,1.1,PST,120 min,Gather location list; Review transaction volumes,How many phases? Which locations first? Training approach?,Not considering change management,Phase Planning Template
+2.2,Documents & Vendors Meeting,1,1.1,Vendor Manager,90 min,Compile vendor list; Gather sample documents,Which vendors are critical? Custom doc needs?,Missing key vendors; Underestimating doc needs,Vendor Input Sheet
+3.1,Organization Setup,1,2.1,None,90 min,Logo files ready; Bank info gathered,Any JV relationships? All bank accounts ready?,Missing JV setup; Wrong logo specs,JV Setup Guide
+4.1,SFTP and Bank Accounts,1,3.1,None,90 min,Bank contacts ready,Bank United or other? Timeline for SFTP?,SFTP delays; Not starting early enough,SFTP Request Form
+4.2,API Planning,1,3.1,Dev Team,90 min,Review integration needs,What systems need integration? Dev resources available?,Underestimating API complexity,API Documentation
+5.1,Preferences Global,2,3.1,None,90 min,Logo files; Order number decision; Signatory list,Same order numbers across locations? Duplicate threshold? Authorized signatories?,Different numbers lock files; Low duplicate threshold; Missing payee labels,Preferences Guide
+5.2,Order Defaults,2,5.1,None,90 min,Fee schedules; Transaction types list,Default settings per transaction? Earnest money handling?,Not setting defaults causes rework,Fee Schedule Template
+6.1,Additional Documents,2,5.1,None,90 min,Custom docs ready; QR code needs identified,Document packages needed? Permissions by role?,Not setting doc permissions early,Document Setup Guide
+6.2,Connect Demo,2,None,None,90 min,Test contacts ready,Understanding of Connect value prop? User types?,Not showing client perspective,Connect Overview
+7.1,Connect Basic Settings,2,6.2,None,90 min,POC decisions; Notification preferences,Who is POC? Intro letter customization needed?,Wrong POC selection affects all comms,Connect Settings Guide
+7.2,Connect Info Requests,2,7.1,None,90 min,Review standard requests,Which automatic requests? Custom questions needed?,Too many automatic requests spam clients,Info Request Guide
+8.1,Connect Quoting & Ordering,2,7.1,None,90 min,Quote configurations ready,Auto-accept criteria? Scheduling preferences?,Quote config doesn't match fees,Quoting Setup Guide
+8.2,Connect E-sign & Fillable,2,7.1,None,90 min,E-sign documents identified,Which docs need e-sign? Fillable forms needed?,Not templating docs properly,E-sign Guide
+9.1,Connect Marketing,2,7.1,None,60 min,Marketing strategy discussion,Rollout plan? Training for partners?,No partner adoption plan,Marketing Toolkit
+9.2,Connect Wrap-up,2,9.1,None,60 min,Final questions ready,Any remaining concerns? Ready for testing?,Rushing through without testing,Connect Checklist
+10.1,Workflows Demo,2,None,PST,90 min,Process maps ready,Task assignment strategy? Smart roles needed?,Not planning assignment strategy,Workflow Overview
+10.2,Core Workflow Building,2,10.1,PST,120 min,Milestone structure planned,Which workflows first? Assignment methods?,Too complex initially,Workflow Templates
+11.1,Smart Actions,2,10.2,PST,90 min,Trigger scenarios identified,Which automations needed? Payoff/HOA actions?,Missing key automations,Smart Actions Guide
+11.2,Workflow Testing,2,11.1,PST,90 min,Test scenarios ready,Edge cases? Error handling?,Insufficient testing,Test Scenarios
+12.1,Order Templates,2,5.2,None,90 min,Template strategy decided,Naming convention? How many templates?,Too many templates,Template Strategy
+13.1,Marketplace Testing Part 1,3,2.2,Vendor Manager,120 min,Test properties ready,Which vendors to test? Products needed?,Not testing actual workflow,Marketplace Guide
+13.2,Marketplace Testing Part 2,3,13.1,Vendor Manager,120 min,Vendor feedback gathered,Auto-order rules? Performance metrics?,Vendors not ready,Vendor Setup Guide
+14.1,Marketplace Auto-Ordering,3,13.2,None,90 min,Rules criteria defined,Round robin? Percentage split? Default terms?,Rules too complex,Auto-Order Guide
+14.2,Other Integrations,3,None,None,90 min,Integration list ready,Simplifile? Shipping? SSO needed?,Integration delays,Integration Checklist
+15.1,Global Accounting & Recon,3,4.1,None,120 min,Test transactions ready,Auto-clearing rules? Positive pay?,Recon not balancing,Accounting Guide
+15.2,SPIRE and EMD Demos,3,4.1,Shield Team,90 min,Shield discussion ready,Risk tolerance? EMD collection method?,Not understanding risk assessment,Shield Overview
+16.1,Shield Configurations,3,15.2,Shield Team,90 min,Permission decisions made,Who can send wires? Notification preferences?,Too many wire permissions,Shield Config Guide
+16.2,Wire Testing,3,16.1,Shield Team,120 min,Test wire ready,Bank portal access? Release process?,Failed wire test,Wire Testing Guide
+17.1,Audit Dashboard & Aggregates,3,15.1,None,90 min,Aggregate payees identified,Which aggregates needed? ARD setup?,Missing key aggregates,Audit Guide
+18.1,Reports & Packages,3,None,None,90 min,Report requirements gathered,Which reports critical? Subscriptions needed?,Not setting up subscriptions,Reports Guide
+18.2,Revenue & Custom Reports,3,18.1,None,90 min,Revenue tracking requirements,JV reporting? Custom fields needed?,Revenue not tracking correctly,Revenue Guide
+19-21,Additional Testing,4,All,None,Variable,Test files ready,UAT scenarios? Issue tracking?,Insufficient test coverage,Testing Checklist
+21,Training,4,None,Training Team,Variable,Training plan confirmed,Train-the-trainer? Schedule confirmed?,No-shows; Not prepared,Training Guide
+22,First Go-Live,4,21,CSM,Variable,Go-live checklist complete,Support plan? Issue escalation?,Not ready; No support plan,Go-Live Checklist
+23-26,RON & 1099 & Phases,4,22,None,Variable,Advanced features identified,RON needed? 1099 setup? Next phases?,Scope creep,Advanced Features Guide
+27-30,Graduation,4,26,CSM,Variable,Success metrics documented,Handoff ready? Documentation complete?,Incomplete handoff,Graduation Checklist

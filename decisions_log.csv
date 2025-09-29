@@ -1,0 +1,6 @@
+Date,Client,Week,Category,Decision,BP Compliant,Risk Level,Impact,Acknowledged
+11/12/24,TitleCo,5.1,Configuration,Different order numbers per branch,No,Medium,File locking possible,Yes
+11/12/24,TitleCo,5.1,Configuration,60% duplicate threshold,Yes,Low,Standard setting,Yes
+11/13/24,Summit,12.1,Templates,8 templates (1 per location),Yes,Low,Normal approach,Yes
+11/13/24,Summit,12.1,Workflow,No smart roles initially,No,Low,More template maintenance,Yes
+11/14/24,Apex,2.1,Phasing,3 phases by region,Yes,Low,Logical grouping,Yes
